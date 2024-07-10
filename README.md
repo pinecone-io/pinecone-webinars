@@ -57,7 +57,7 @@ python vector_search.py
 
 ## Notebooks Usage
 ### Step 1
-Run the main ```pinecone101.ipynb``` notebook to get and embedd the demo_doctor_notes.jsonl, UPSERT data and execute a vector search query:
+Run the ```pinecone101.ipynb``` notebook to get and embedd the demo_doctor_notes.jsonl, UPSERT data and execute a vector search query:
 
 ## Contact
 For questions or support, please contact Rick Jacobs at rick.jacobs@example.com.
