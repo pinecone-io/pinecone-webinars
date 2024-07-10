@@ -225,7 +225,7 @@ if __name__ == "__main__":
     api_key = config['DEFAULT']['PINECONE_API_KEY']
     file_name = "data/demo_doctor_notes.jsonl"
 
-    index_name = "doctor-notes"
+    index_name = "pinecone101-openai"
     pc = create_pinecone_client(api_key)
 
     if create_index(pc, index_name):
