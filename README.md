@@ -17,8 +17,6 @@ This project demonstrates how to use Pinecone along with embedding models from H
 - `procedural_vector_openai.py`: Script for executing a vector search query based on a user inputted query/question using the OpenAI embedding model.
 - `sample_data_generator.py`: Script to generate sample data for demonstration purposes.
 
-
-demo_doctor_notes.jsonl
 ## Requirements
 - Python 3.8 or higher
 - `pinecone-client`
