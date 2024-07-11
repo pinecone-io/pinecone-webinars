@@ -18,7 +18,7 @@ This project demonstrates how to use Pinecone along with embedding models from H
 - `sample_data_generator.py`: Script to generate sample data for demonstration purposes.
 
 ## Requirements
-- Python 3.8 or higher
+- Python 3.9 or higher
 - `pinecone-client`
 - `transformers`
 - `torch`
