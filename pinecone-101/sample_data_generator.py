@@ -57,4 +57,4 @@ with open("data/sample_generated_data.jsonl", "w") as jsonlfile:
     for record in data:
         jsonlfile.write(json.dumps(record) + "\n")
 
-print("Sample data generated and saved to sample_data.jsonl")
+print("Sample data generated and saved to data/sample_generated_data.jsonl")
