@@ -91,4 +91,4 @@ Run the `pinecone101.ipynb` notebook to UPSERT data from `sample_notes_data.json
 
 ## Contact
 
-For questions or support, please contact Rick Jacobs at [rick.jacobs@example.com](mailto:rick.jacobs@example.com).
+For questions or support, please contact Rick Jacobs at [rick.jacobs@example.com](mailto:rick@pinecone.io).
