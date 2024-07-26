@@ -60,7 +60,7 @@ This project demonstrates how to use Pinecone with embedding models from Hugging
     cd pinecone_starter_v1
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    pip install -r requirements.txt
+    pip install [package_name]
     ```
 
 ## Configuration
