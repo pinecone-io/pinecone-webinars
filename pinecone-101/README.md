@@ -17,7 +17,9 @@
 
 
 ## Overview
-This project demonstrates how to use Pinecone with embedding models from Hugging Face and OpenAI to process, embed, and search textual data. Pinecone allows for efficient similarity search and recommendation systems by storing and querying high-dimensional vectors.
+Pinecone Serverless is an advanced vector database designed to facilitate the rapid development of AI applications. Our architecture allows developers to operate without managing infrastructure, providing efficient, low-latency vector search capabilities while automatically scaling resources based on demand.
+
+This project demonstrates how to use Pinecone with embedding models from Hugging Face and OpenAI to process, embed, and search textual data.
 
 ## Quick Start
 1. Clone the repository
