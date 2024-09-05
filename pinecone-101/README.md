@@ -35,16 +35,18 @@ This project demonstrates how to use Pinecone with embedding models from Hugging
 
 ## Main Files
 - `config.ini`: Configuration file containing the Pinecone API key and OpenAI API key.
-- `create_load.py`: Script for loading data, creating embeddings using the Hugging Face `sentence-transformers/all-MiniLM-L6-v2` model, and upserting data to Pinecone.
-- `vector_search.py`: Script for executing a vector search query based on a user-inputted query/question using the Hugging Face embedding model.
+- `create_load_inference.py`: Script for loading data, creating embeddings using the Pinecone Inference API embedding model, `multilingual-e5-large` model, and upserting data to Pinecone.
+- `vector_search_inference.py`: Script for executing a vector search query based on a user-inputted query/question using the Pinecone Inference API embedding model.
 - `pinecone101.ipynb`: Notebook to demonstrate the end-to-end process of loading data, creating embeddings, and executing a vector search query.
 - `demo_doctor_notes.jsonl`: Sample data file containing doctor notes for demonstration purposes.
 
 ## Supplemental Files
 - `create_load_openai.py`: Script for loading data, creating embeddings using the OpenAI `text-embedding-ada-002`, and upserting data to Pinecone.
-- `vector_openai.py`: Script for executing a vector search query based on a user-inputted query/question using the OpenAI embedding model.
+- `vector_search_openai.py`: Script for executing a vector search query based on a user-inputted query/question using the OpenAI embedding model.
+- `create_load_hugging.py`: Script for loading data, creating embeddings using the Hugging Face `sentence-transformers/all-MiniLM-L6-v2` model, and upserting data to Pinecone.
+- `vector_search_hugging.py`: Script for executing a vector search query based on a user-inputted query/question using the Hugging Face embedding model.
 - `sample_data_generator.py`: Script to generate sample data for demonstration purposes.
-
+  
 ## Requirements
 - Python 3.9 or higher
 - `pinecone-client`
