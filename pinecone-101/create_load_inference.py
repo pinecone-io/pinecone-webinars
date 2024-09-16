@@ -185,6 +185,6 @@ if __name__ == "__main__":
     if create_index(pc_client, index_name):
         exit()
     else:
-        records_df = get_data_pandas(pc_client, file_name)  #XXXXXX
+        records_df = get_data_pandas(pc_client, file_name)  
         upsert_df(pc_client, index_name, records_df)
         print("Data UPSERT completed.")
